@@ -56,4 +56,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const openPopups = document.querySelectorAll(".popup:not(.popup-hidden)");
     openPopups.forEach(popup => hidePopup(popup.id));
   });
+
 });

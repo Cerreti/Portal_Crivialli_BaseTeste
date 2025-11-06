@@ -34,4 +34,5 @@ document.addEventListener("DOMContentLoaded", () => {
       span.textContent = isDark ? "Tema: Claro" : "Tema: Escuro";
     }
   });
+
 });
