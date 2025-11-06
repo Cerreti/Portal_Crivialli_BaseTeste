@@ -67,14 +67,14 @@ body {
     --btn-hover-bg: #666;
     --btn-color: #fff;
 
-    --content-bg: #fff;
-    --content-color: #000;
+    --content-bg: #2956d1;
+    --content-color: #fff;
 
     --popup-bg: #fff;
-    --close-color: #000000;
+    --close-color: #fff;
     --close-hover-color: #000;
 
-    --button-bg: #333;
+    --button-bg: #4d4d4d;
 }
 
 /* =======================
@@ -285,7 +285,7 @@ body footer {
 }
 
 .close-button:hover {
-    color: var(--close-hover-color);
+    color: var(--close-color);
     transform: rotate(90deg) scale(1.2);
 }
 
