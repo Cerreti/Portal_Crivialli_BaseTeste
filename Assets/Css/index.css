@@ -293,10 +293,13 @@ body footer {
 .button-grid {
     display: flex;
     flex-wrap: wrap;
+    width: 600px;
     gap: 15px;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    margin: 20px auto 0 auto;
 }
+
 
 .button-grid button {
     width: 100px;
@@ -450,6 +453,18 @@ body footer {
         max-width: 300px;
         justify-content: flex-start;
         padding: 15px 15px;
+    }
+
+    .button-grid {
+        width: 100%;        /* ocupa toda a largura */
+        max-width: 350px;   /* evita ficar largo demais */
+        gap: 12px;          /* espaçamento um pouco menor */
+        padding: 0 10px;    /* evita colar nas laterais */
+    }
+
+    .button-grid button {  
+        max-height: 80px;    
+        max-width: 80px; 
     }
 
     body header div .btn span {
